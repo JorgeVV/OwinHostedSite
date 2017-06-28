@@ -1,0 +1,81 @@
+FRAMEWORK: >= NET462
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    FSharp.Core (4.2.1)
+      System.Collections (>= 4.0.11) - framework: >= net463
+      System.Console (>= 4.0) - framework: >= net463
+      System.Diagnostics.Debug (>= 4.0.11) - framework: >= net463
+      System.Diagnostics.Tools (>= 4.0.1) - framework: >= net463
+      System.Globalization (>= 4.0.11) - framework: >= net463
+      System.IO (>= 4.1) - framework: >= net463
+      System.Linq (>= 4.1) - framework: >= net463
+      System.Linq.Expressions (>= 4.1) - framework: >= net463
+      System.Linq.Queryable (>= 4.0.1) - framework: >= net463
+      System.Net.Requests (>= 4.0.11) - framework: >= net463
+      System.Reflection (>= 4.1) - framework: >= net463
+      System.Reflection.Extensions (>= 4.0.1) - framework: >= net463
+      System.Resources.ResourceManager (>= 4.0.1) - framework: >= net463
+      System.Runtime (>= 4.1) - framework: >= net463
+      System.Runtime.Extensions (>= 4.1) - framework: >= net463
+      System.Runtime.Numerics (>= 4.0.1) - framework: >= net463
+      System.Text.RegularExpressions (>= 4.1) - framework: >= net463
+      System.Threading (>= 4.0.11) - framework: >= net463
+      System.Threading.Tasks (>= 4.0.11) - framework: >= net463
+      System.Threading.Tasks.Parallel (>= 4.0.1) - framework: >= net463
+      System.Threading.Thread (>= 4.0) - framework: >= net463
+      System.Threading.ThreadPool (>= 4.0.10) - framework: >= net463
+      System.Threading.Timer (>= 4.0.1) - framework: >= net463
+    HtmlAgilityPack (1.4.9.5)
+    Microsoft.Owin (3.1)
+      Owin (>= 1.0)
+    Microsoft.Owin.Diagnostics (3.1)
+      Microsoft.Owin (>= 3.1)
+      Owin (>= 1.0)
+    Microsoft.Owin.FileSystems (3.1)
+    Microsoft.Owin.Host.HttpListener (3.1)
+    Microsoft.Owin.Hosting (3.1)
+      Microsoft.Owin (>= 3.1)
+      Owin (>= 1.0)
+    Microsoft.Owin.StaticFiles (3.1)
+      Microsoft.Owin (>= 3.1)
+      Microsoft.Owin.FileSystems (>= 3.1)
+      Owin (>= 1.0)
+    Owin (1.0)
+    Zafir (4.0.169.70-beta7)
+    Zafir.FSharp (4.0.169.70-beta7)
+      Zafir (>= 4.0.169.70-beta7)
+    Zafir.Owin (4.0.78.35-beta7)
+      Microsoft.Owin (>= 3.1)
+      Owin (>= 1.0)
+      Zafir (>= 4.0.166.66-beta7)
+    Zafir.UI.Next (4.0.149.53-beta7)
+      HtmlAgilityPack (>= 1.4.9.5)
+      Zafir (>= 4.0.169.70-beta7)
+  remote: https://dotnet.myget.org/F/dotnet-core
+    System.Collections (4.3.0) - framework: >= net463
+    System.Console (4.3.0) - framework: >= net463
+    System.Diagnostics.Debug (4.3.0) - framework: >= net463
+    System.Diagnostics.Tools (4.3.0) - framework: >= net463
+    System.Globalization (4.3.0) - framework: >= net463
+    System.Linq (4.3.0) - framework: >= net463
+    System.Linq.Expressions (4.3.0) - framework: >= net463
+    System.Linq.Queryable (4.3.0) - framework: >= net463
+    System.Net.Requests (4.3.0) - framework: >= net463
+    System.Reflection (4.3.0) - framework: >= net463
+    System.Reflection.Extensions (4.3.0) - framework: >= net463
+    System.Resources.ResourceManager (4.3.0) - framework: >= net463
+    System.Runtime (4.3.0) - framework: >= net463
+    System.Runtime.Extensions (4.3.0) - framework: >= net463
+    System.Runtime.Numerics (4.3.0) - framework: >= net463
+    System.Text.RegularExpressions (4.3.0) - framework: >= net463
+    System.Threading (4.3.0) - framework: >= net463
+    System.Threading.Tasks (4.3.0) - framework: >= net463
+    System.Threading.Tasks.Parallel (4.3.0) - framework: >= net463
+    System.Threading.Thread (4.3.0) - framework: >= net463
+    System.Threading.ThreadPool (4.3.0) - framework: >= net463
+    System.Threading.Timer (4.3.0) - framework: >= net463
+  remote: https://dotnet.myget.org/F/cli-deps
+    System.IO (4.3.0) - framework: >= net463
+GITHUB
+  remote: fsprojects/Chessie
+    src/Chessie/ErrorHandling.fs (f0237b5d23da6dbc33d8aab59c8be947f6878dfb)

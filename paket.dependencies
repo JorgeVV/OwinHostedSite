@@ -1,0 +1,20 @@
+source https://dotnet.myget.org/F/dotnet-core/api/v3/index.json
+source https://dotnet.myget.org/F/cli-deps/api/v3/index.json
+source https://api.nuget.org/v3/index.json
+framework >= net462
+
+nuget FSharp.Core
+nuget HtmlAgilityPack
+nuget Microsoft.Owin
+nuget Microsoft.Owin.Diagnostics
+nuget Microsoft.Owin.FileSystems
+nuget Microsoft.Owin.Host.HttpListener
+nuget Microsoft.Owin.Hosting
+nuget Microsoft.Owin.StaticFiles
+nuget Owin
+nuget Zafir 4.0.169.70-beta7 beta
+nuget Zafir.FSharp 4.0.169.70-beta7 beta
+nuget Zafir.Owin 4.0.78.35-beta7 beta
+nuget Zafir.UI.Next 4.0.149.53-beta7 beta
+
+github fsprojects/Chessie src/Chessie/ErrorHandling.fs
